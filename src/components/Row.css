@@ -1,0 +1,51 @@
+.row {
+    margin-left: 20px;
+    color: white;
+}
+
+.row__posters{
+    /* position: fixed; */
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+
+}
+
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row__poster{
+    width: 100px;
+    object-fit: contain;
+    max-height: 400px;
+    margin-right: 10px;
+    transition: all 1s ease;
+}
+
+/* .row__poster:hover {
+    transform: scale(1.2);
+} */
+
+.row__posterLarge {
+    max-height: 600px;
+}
+
+.row__posterHover {
+    /* transform: scale(5); */
+    /* transform: scale(3); */
+    /* margin-right: 210px;
+    margin-left: 200px;
+    margin-top: 100px; */
+    /* max-height: 300px; */
+    /* z-index: 10; */ 
+    /* max-height: 200px; */
+    height: 600px;
+    width: 600px;
+    z-index: 2;
+    border: 1px solid rgb(182, 182, 97);
+    /* width: 1000px; */
+    /* position: fixed; */
+}
+
